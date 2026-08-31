@@ -6,7 +6,6 @@
 *.pdb
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -71,6 +70,7 @@ temp/
 cache/
 
 # Security
+temp_auto_push.bat
 *.key
 *.pem
 *.p12
@@ -144,3 +144,5 @@ plan.md
 /mutants.out/
 /mutants.out.old/
 
+.gitignore
+branch_structure.json
