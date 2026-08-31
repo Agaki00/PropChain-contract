@@ -6,7 +6,6 @@
 *.pdb
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -26,8 +25,6 @@ Thumbs.db
 logs/
 
 # Environment
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -71,6 +68,7 @@ temp/
 cache/
 
 # Security
+temp_auto_push.bat
 *.key
 *.pem
 *.p12
@@ -144,3 +142,6 @@ plan.md
 /mutants.out/
 /mutants.out.old/
 
+.gitignore
+branch_structure.json
+config.bat
